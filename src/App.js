@@ -3,6 +3,8 @@ import Split from './composition/Split';
 import './App.css';
 import './composition/Tooltip';
 import Tooltip from './composition/Tooltip';
+import TheDate from './state/TheDate';
+import Counter from './state/Counter';
 
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
@@ -30,6 +32,8 @@ function App() {
       <Split className='right'>
         This is the content of the right split component. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ex velit suscipit facere officia?
       </Split>
+      <TheDate />
+      <Counter count={123}/>
     </main>
   );
 }
