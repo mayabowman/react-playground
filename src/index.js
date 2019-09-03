@@ -10,4 +10,4 @@ import Tabs from './state/Tabs';
 // ReactDOM.render(<Bomb />, document.getElementById('root'));
 // ReactDOM.render(<HelloWorld />, document.getElementById('root'));
 // ReactDOM.render(<RouletteGun />, document.getElementById('root'));
-ReactDOM.render(<Tabs />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

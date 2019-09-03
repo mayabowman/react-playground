@@ -13,3 +13,7 @@
   background-color: wheat;
   color: firebrick;
 }
+
+ul {
+  list-style: none;
+}
