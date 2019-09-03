@@ -14,7 +14,7 @@ describe(`Tabs Component`, () => {
   ];
   it('renders without errors', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Tabs />, div);
+    ReactDOM.render(<Tabs tabs={tabsProp}/>, div);
     ReactDOM.unmountComponentAtNode(div);
   })
 
